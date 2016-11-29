@@ -16,5 +16,7 @@ public class Main {
         System.out.println("Диаметр1:"+ d);
         double s= c1.circleSquare();
         System.out.println("Площадь круга1:"+ s);
+       boolean in= c1.insidePoint(1,2);
+        System.out.println(in);
     }
 }
